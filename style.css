@@ -42,11 +42,13 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .title {
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .main-title {
@@ -73,7 +75,7 @@ button {
 }
 
 .hero-image {
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 
@@ -164,4 +166,13 @@ button {
 .call-header {
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
