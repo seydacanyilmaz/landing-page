@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
+    padding: 20px 8%;
     gap: 15px;
 }
 
@@ -37,7 +37,7 @@ a {
 
 .hero {
     background-color: #1F2937;
-    padding: 40px 150px;
+    padding: 40px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +66,8 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    max-width: 100px;
+    border-style: solid;
+    width: 100px;
     padding: 5px;
     margin-top: 10px;
 }
@@ -81,7 +82,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 200px 50px 200px;
+    padding: 30px 10% 80px 10%;
     gap: 30px;
 }
 
@@ -118,7 +119,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 350px;
+    padding: 100px 20%;
     gap: 20px;
 }
 
@@ -131,5 +132,36 @@ button {
 .quote-author {
     align-self: flex-end;
     margin-right: 50px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 8%;
+}
+
+.call-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    border-radius: 10px;
+    flex: 1;
+    padding: 40px 10%;
+}
+
+.call-text {
+    margin-right: 15px;
+}
+
+.call-container > button {
+    border-color: #F9FAF8;
+}
+
+.call-header {
+    margin-bottom: 5px;
     font-weight: bold;
 }
