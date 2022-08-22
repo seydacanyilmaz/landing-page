@@ -75,3 +75,61 @@ button {
     width: 500px;
     height: auto;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px 50px 200px;
+    gap: 30px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.info-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 350px;
+    gap: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin-right: 50px;
+    font-weight: bold;
+}
