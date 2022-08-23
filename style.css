@@ -75,6 +75,7 @@ button {
 }
 
 .hero-image {
+    width: 100%;
     max-width: 500px;
     height: auto;
 }
@@ -98,6 +99,8 @@ button {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-image {
